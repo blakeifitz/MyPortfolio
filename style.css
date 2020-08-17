@@ -1,5 +1,6 @@
 body{
-  background-image:url(background.jpg);
+  background-image:url(images/background.jpg);
+  /*background image from pexels.com*/
   background-size:100%;
 }
 header{
@@ -8,6 +9,10 @@ header{
   border-radius: 2%;
   padding-left:5%;
   padding-right:5%;
+}
+
+footer{
+  background-color:rgba(0,0,0,.1)
 }
 
 main, h2{
@@ -29,6 +34,7 @@ h4{
 
 a{
   font-family:'Courier New', Courier, monospace;
+  /* links are a different font to slightly stand out */
 }
 
 a:link{}
@@ -40,10 +46,10 @@ a:link{}
   margin-top: 80px;
   margin-bottom: 80px;
 }
-a:link    { color: blue; }
+a:link    { color:blue; }
 a:visited { color:black; }
 a:hover   { color:orange;}
-a:active  { color:black;  }
+a:active  { color:black; }
 
 li{
   font-size:1.2em;
@@ -58,11 +64,12 @@ border-radius: 5%;
 
 }
 
+/* This <hr> element is for the vertical section divider*/
 .divider{
  border: 2px solid rgba(1,1,1,.5);
 
 }
-
+/* styles the flex box for About Me and Contact Me sections*/
 .sidebyside{
   display: flex;
   flex-direction: row;

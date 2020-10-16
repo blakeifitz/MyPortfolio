@@ -1,0 +1,160 @@
+body{
+  background-image:url(images/background.jpg);
+  /*background image from pexels.com*/
+  background-size:100%;
+}
+header{
+  text-align: center;
+  background-color:rgba(0,0,0,.1);
+  border-radius: 2%;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+}
+header nav ul{
+  display:flex;
+  flex-direction:column;
+  margin:0;
+ flex-wrap:nowrap;
+ padding-left:0;
+}
+
+header nav li {
+  list-style: none;
+  padding:4px;
+}
+
+footer {
+  background-color:rgba(0,0,0,.1)
+}
+
+main {
+  text-align: center;
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:1.2em;
+  text-align: center;
+}
+
+h4 {
+  text-align: right;
+}
+
+a {
+  font-family:'Courier New', Courier, monospace;
+  /* links are a different font to slightly stand out */
+}
+
+
+.top {
+  height: 4px;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius:50%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+a:link    { color:black; }
+a:visited { color:black; }
+a:hover   { color:orange;}
+a:active  { color:black; }
+
+li { 
+  font-size:1.2em;
+  text-align:center;
+}
+
+main p {
+  text-align:left;
+  margin: 10px;
+}
+img {
+border-radius: 5%;
+
+}
+.sidebyside{
+  display:flex;
+  flex-direction:column;
+}
+
+.footer{
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+/* This <hr> element is for the vertical section divider*/
+.divider{
+ border: 2px solid rgba(1,1,1,.5);
+
+}
+.group {
+  display: flex;
+  flex-direction:column;
+}
+
+form {
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+  max-width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  max-width:300px;
+  margin-bottom: 20px;
+}
+
+.projects {
+
+display:flex;
+}
+
+.smooth {
+  max-width:100%;
+}
+
+
+
+.link{
+  padding-right: 5px;
+}
+
+/* desktop css */
+ @media all and (min-width:600px){
+   header nav ul{
+     flex-direction:row;
+   }
+   section {
+     padding:0 10%;
+   }
+   .group {
+     flex-direction:row;
+     flex: 1;
+     padding: 8px;
+   }
+   .sidebyside{
+     display:"flex";
+     flex-direction:row;
+   }
+
+   .projectlist {
+     display:flex;
+     flex-direction: row;
+   }
+   
+
+  }
+

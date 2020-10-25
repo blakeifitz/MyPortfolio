@@ -132,6 +132,10 @@ display:flex;
   padding-right: 5px;
 }
 
+.contact{
+  text-align:center;
+}
+
 /* desktop css */
  @media all and (min-width:600px){
    header nav ul{
@@ -154,7 +158,10 @@ display:flex;
      display:flex;
      flex-direction: row;
    }
-   
+   p{
+     text-align: center;
+     
+   }
 
   }
 

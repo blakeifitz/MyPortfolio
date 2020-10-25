@@ -16,13 +16,13 @@
 
     <p class="subtitle">Web Developer</p>
     <!--Navbar-->
-  <nav>
-    <ul>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
@@ -34,7 +34,7 @@
       <div class="group">
         <div class="item">
 
-          <p> I'm a EMT who decided on a career change to web development because of my life long interest of creating
+          <p> I'm an EMT who decided on a career change to web development because of my lifelong interest in creating
             and building. I strive to design websites that are accessible and easy to use. </P>
           <!--making my plans clear to potential employers -->
           <p> I currently live in Columbus, OH, with a plan to move to Arizona and build my own house.</p>
@@ -54,7 +54,8 @@
                 classes. It wasn't long until I decided I wanted to make developing software my full time career. </p>
 
               <p>I'm currently a software engineering student at Thinkful. I'm excited to become a full
-                time developer and work with great programmers. I would love to work with others to create code that can help people.</p>
+                time developer and work with great programmers. I would love to work with others to create code that can
+                help people.</p>
               <p>I can provide easy to navigate and responsive webpages for your business. </p>
             </div>
           </div>
@@ -80,51 +81,55 @@
     </section>
     <hr class="divider">
     <section id="projects">
-            <!--Projects **Add real projects once complete**-->
+      <!--Projects **Add real projects once complete**-->
       <h2>Projects</h2>
       <div class="projectlist">
-			<div class="group">
-				<div class="item">
-          <a href="https://github.com/blakeifitz?tab=repositories">
-          <img src="images/comingsoon.webp" alt="FormConstructor" class="smooth">
-          </a>
-          <a href="https://github.com/blakeifitz?tab=repositories">
-          <h3>Make Your Own Form</h3>
-          </a>
-					<p>Create your own forms using text boxes, drop down menus, checkboxes, and more! Quick and easy to build a custom form for your site.
-             I will go into the tools I used to create this and what I learned.</p>
+        <div class="group">
+          <div class="item">
+            <a href="https://blakeifitz.github.io/SpaceQuiz/">
+              <h3>Space Quiz</h3>
+            </a>
+            <p>A quick space themed quiz to show off your knowledge of Space!
+            </p>
+            <p>Built with HTML wireframes, CSS, and jQuery DOM manipulation.</p>
+            <a href="https://github.com/blakeifitz/SpaceQuiz">
+              <p>GitHub Repo </p>
+            </a>
+          </div>
         </div>
-      </div>   
         <div class="group">
           <div class="item">
             <a href="https://github.com/blakeifitz?tab=repositories">
-            <img src="images/comingsoon.webp" alt="Auto Pet Feeder" class="smooth">
-            </a>
-            <a href="https://github.com/blakeifitz?tab=repositories">
-            <h3>Pet Feeder</h3>
-            </a>
-            <p>Deliver a set amount of pet food with a push of a button.
-                I will go into the tools I used to create this and what I learned.</p>
+              <h3>Random Dog Photo Generator</h3>
+              </a>
+              <p>Search the Dog Photo API to find fun random photos of dogs!</p>
+              <p>React app built with Javascript, html, css and deployed with Vercel CLI</p>
+              <a href="https://github.com/blakeifitz/SpaceQuiz">
+                <p>GitHub Repo </p>
+              </a>
           </div>
         </div>
       </div>
     </section>
     <hr class="divider">
-<!--Contact-->
+    <!--Contact-->
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>Feel free to email me at blakeifitz@gmail.com to work together or learn more about my code!</p>
+      <div class='emailItem'>
+        <p>Feel free to <a id='emailLink' href="mailto:blakeifitz@gmail.com">Email me</a> at blakeifitz@gmail.com to
+          work together or learn more about my code!</p>
+      </div>
       <form action="https://formspree.io/f/mqkgpprn" method="POST">
-          <label>
-            Your email:
-            <input type="text" name="_replyto">
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-          <!-- your other form fields go here -->
-          <button type="submit">Send</button>
+        <label>
+          Your email:
+          <input type="text" name="_replyto">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
       </form>
     </section>
   </main>

@@ -139,7 +139,7 @@ display:flex;
   flex: 1;
   margin: 10px;
 }
-img{
+.tempimg{
   width: 100%
 }
 
@@ -175,7 +175,7 @@ img{
   .group {
     flex-direction: row;
   }
-}
+
 
   }
 

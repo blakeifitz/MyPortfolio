@@ -135,6 +135,13 @@ display:flex;
 .contact{
   text-align:center;
 }
+.item {
+  flex: 1;
+  margin: 10px;
+}
+img{
+  width: 100%
+}
 
 /* desktop css */
  @media all and (min-width:600px){
@@ -162,6 +169,13 @@ display:flex;
      text-align: center;
      
    }
+   section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
 
   }
 

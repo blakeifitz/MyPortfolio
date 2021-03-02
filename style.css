@@ -285,9 +285,6 @@ footer {
 .item {
   flex: 1;
 }
-.item-img {
-  width: 100%;
-}
 
 .info-group {
   align-items: center;

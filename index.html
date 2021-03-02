@@ -2,137 +2,225 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>repl.it</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Blake Fitzpatrick</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 
-  <header>
-    <h1>Blake Fitzpatrick</h1>
+    <header>
+        <h1>Blake Fitzpatrick</h1>
 
-    <p class="subtitle">Web Developer</p>
-    <!--Navbar-->
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>
-    </nav>
-  </header>
+        <h2 class="subtitle">Web Developer</h2>
+        <!--Navbar-->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section>
-      <img src="images/profilepicture.jpg" alt="Girlfriend and I in hot air ballon" class=profile-photo>
-      <!-- temp picture until I can get better picture of just myself -->
+    <main>
+        <section>
 
-      <h2> Hello, my name is Blake Fitzpatrick</h2>
-      <div class="group">
-        <div class="item">
+            <!-- temp picture until I can get better picture of just myself -->
+            <div class="info-group">
+                <h2> Hello, my name is Blake Fitzpatrick</h2>
+                <img src="images/profilepicture.jpg" alt="Girlfriend and I in hot air ballon" class=profile-photo>
+                <div class="item">
 
-          <p> I'm an EMT who decided on a career change to web development because of my lifelong interest in creating and building. I strive to design websites that are accessible and easy to use. </P>
-          <!--making my plans clear to potential employers -->
-          <p> I currently live in Columbus, OH, with a plan to move to Arizona and build my own house.</p>
-        </div>
-      </div>
-    </section>
-    <hr class="divider">
-    <section id="about">
-      <div class="sidebyside">
-        <div class="stack">
-          <!--about-->
-          <h2>About Me</h2>
-          <div class="group">
-            <div class="item">
-              <p> After highschool, like a lot of kids, I struggled deciding what I wanted to do for a career. Because I
-                enjoy helping people I decided to go into EMS. In my down time at work I began to take online coding
-                classes. It wasn't long until I decided I wanted to make developing software my full time career. </p>
+                    <h3>And I'm a Full Stack Web Developer</h3>
 
-              <p>I'm currently a software engineering student at Thinkful. I'm excited to become a full
-                time developer and work with great programmers. I would love to work with others to create code that can
-                help people.</p>
-              <p>I can provide easy to navigate and responsive webpages for your business. </p>
+                    <p> Working as an EMT I decided on a career change to web development because of my lifelong
+                        interest in
+                        creating and building. I strive to design websites that are accessible and easy to use. </P>
+                    <p class="center-p"> I am located in Columbus, OH.</p>
+                </div>
             </div>
-          </div>
-        </div>
-        <!--list ways I use to help people in future -->
-        <div class="stack">
-          <h3>My Interests</h3>
-          <div class="group">
-            <div class="item">
-              <ul>
-                <li>Hiking and Backpacking</li>
-                <li>Exploring with my Dogs</li>
-                <li>Fixing Cars</li>
-                <li>Playing Piano</li>
-              </ul>
+        </section>
+        <hr class="divider">
+        <section id="about">
+            <div class="sidebyside">
+                <div class="stack">
+                    <!--about-->
+                    <h2>About Me</h2>
+                    <div class="group">
+                        <div class="item">
+                            <p> After highschool, like a lot of people, I struggled deciding on a career path. Because
+                                of
+                                a passion for helping people, I decided to go into EMS. Starting with down time at work
+                                I began to take
+                                online coding
+                                classes. It wasn't long until I decided to make software development my new career. </p>
+
+                            <p>Currently, I'm a software engineering student at Thinkful. I'm excited to begin work as a
+                                full
+                                time developer and learn from great programmers. My goal is to work with a team to
+                                create code that helps people.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stack">
+                    <h3>My Interests</h3>
+                    <div class="group">
+                        <div class="item">
+                            <ul>
+                                <li>Hiking and Backpacking</li>
+                                <li>Exploring with my Dogs</li>
+                                <li>Fixing Cars</li>
+                                <li>Playing Piano</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="item">
+                <p class="center-p">I'm always interested to hear great ideas so feel free to hit me up to talk or work
+                    together.
+            </div>
+        </section>
+        <hr class="divider">
+        <section id='projects'>
+            <h2>Portfolio</h2>
+            <div class="projects-group">
+                <div class="item">
+                    <h3>Pick-It-Up</h3>
+                    <img class="item-img" src="images/pick-it-up.png" alt="Pick-It-Up" class="rounded">
+
+                    <p>Over the years I have collected lots of items. I needed a better way to keep track of them.
+                        With this app a user can save details about items, the location they were found, a photo,
+                        and a category to keep them in. A user can choose to add to previous locations or add a new one
+                        using a React
+                        Leaflet
+                        Map.
+                    </p>
+                    <div class="tools"><small>
+                            <span>Javascript</span><span>React.js</span><span>CSS3</span><span>HTML5</span>
+                            <span>Node.js</span><span>Express.js</span><span>Knex.js</span>
+                            <span>PostgreSQL</span><span>Mocha</span><span>Chai</span>
+                            <span>Supertest</span><span>Nodemon</span><span>JWT</span>
+                        </small></div>
+                    <div class="buttons">
+                        <a href="https://pick-it-up-client.vercel.app/login" target="_blank" class="button">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            Demo
+                        </a>
+                        <a href="https://github.com/blakeifitz/pick-it-up-client" target="_blank" class="button">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>QuickCard</h3>
+                    <img class="item-img" src="images/quickcard.png" alt="quickcard" class="rounded">
+
+                    <p>This project was created to shorten the time doing of doing a regular, helpful, repetitive job...
+                        making flashcards. This app allows a user to copy and paste notes they have already created and
+                        make them directly into flashcards. An algorithm separates notes by a specified symbol into
+                        decks of cards. A user can then flip through the decks to study.</p>
+                    <div class="tools"><small>
+                            <span>Javascript</span><span>React.js</span><span>CSS3</span><span>HTML5</span>
+                            <span>Node.js</span><span>Express.js</span><span>Knex.js</span>
+                            <span>PostgreSQL</span><span>Mocha</span><span>Chai</span>
+                            <span>Supertest</span><span>Nodemon</span><span>JWT</span>
+                        </small></div>
+                    <div class="buttons">
+                        <a href="https://pick-it-up-client.vercel.app/login" target="_blank" class="button">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            Demo
+                        </a>
+                        <a href="https://github.com/blakeifitz/QuickCardv1-client" target="_blank" class="button">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>Spaced Repetition Learning</h3>
+                    <img class="item-img" src="images/spl.png" alt="spaced-repetition class=" rounded">
+
+                    <p>This app was created to demonstrate a learning style called spaced repetition. I use French words
+                        to show how learning this way works. The more often a user gets a word correct, the less often
+                        the
+                        user will see it. The less
+                        often a user
+                        gets it correct, the more
+                        a user will see that word.</p>
+                    <div class="tools"><small>
+                            <span>Javascript</span><span>React.js</span><span>CSS3</span><span>HTML5</span>
+                            <span>Node.js</span><span>Express.js</span><span>Knex.js</span>
+                            <span>Nodemon</span><span>JWT</span>
+                        </small></div>
+                    <div class="buttons">
+                        <a href="https://pick-it-up-client.vercel.app/login" target="_blank" class="button">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            Demo
+                        </a>
+                        <a href="https://github.com/blakeifitz/QuickCardv1-client" target="_blank" class="button">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <hr class="divider">
+        <section id='contact'>
+            <!--Contact-->
+            <form action="https://formspree.io/f/mqkgpprn" method="POST">
+                <h2>Contact Me</h2>
+                <div class='emailItem'>
+                    <p> Email me at
+                        <a id='emailLink' href="mailto:blakeifitz@gmail.com">blakeifitz@gmail.com</a> to
+                        work together or learn more about my code!
+                    </p>
+                </div>
+
+                <label for="_replyto">
+                    Your email:</label>
+                <input id="_replyto" aria-placeholder="What's your email address?"
+                    placeholder="What's your email address?" type="text" name="_replyto">
+                <label for="message">
+                    Your message:</label>
+                <textarea id="message" name="message" aria-placeholder="What's on your mind?"
+                    placeholder="What's on your mind?"></textarea>
+
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+
+            <div class="link">
+                <a href="https://github.com/blakeifitz" target="blank">GitHub</a>
+            </div>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/blake-fitzpatrick-05625b103/" target="blank">LinkedIn</a>
+            </div>
+            <div class="link">
+                <a id='emailLink' href="mailto:blakeifitz@gmail.com">Email</a>
+            </div>
+            <div class="link">
+                <a href="https://www.instagram.com/blakeifitz/?hl=en" target="blank">Photos</a>
+            </div>
+
         </div>
-      </div>
-      <div class="item">
-        <p>I'm always interested in fresh ideas so feel free to hit me up to talk or work together.
-      </div>
-    </section>
-    <hr class="divider">
-    <section>
-			<h2>Portfolio</h2>
-			<div class="group">
-				<div class="item">
-          <img class="tempimg" src="images/comingsoon.webp" alt="Quiz App" class="rounded">
-          <h3>Quiz App</h3>
-					<p>This is a description of the Quiz App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-				</div>
-				<div class="item">
-          <img class="tempimg" src="images/comingsoon.webp" alt="Bookmark App"class="rounded">
-          <h3>Bookmark App</h3>
-					<p>This is a description of the Bookmark App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-				</div>
-			</div>
-		</section>
-
-    <hr class="divider">
-    <!--Contact-->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <div class='emailItem'>
-        <p>Feel free to <a id='emailLink' href="mailto:blakeifitz@gmail.com">Email me</a> at blakeifitz@gmail.com to
-          work together or learn more about my code!</p>
-      </div>
-      <form action="https://formspree.io/f/mqkgpprn" method="POST">
-        <label>
-          Your email:
-          <input type="text" name="_replyto">
-        </label>
-        <label>
-          Your message:
-          <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-
-
-  <footer>
-    <div class="footer">
-      <div class="link">
-        <a href="https://www.instagram.com/blakeifitz/?hl=en" target="blank">Photos</a>
-      </div>
-      <div class="link">
-        <a href="https://github.com/blakeifitz" target="blank">GitHub</a>
-      </div>
-      <div class="link">
-        <a href="https://www.linkedin.com/in/blake-fitzpatrick-05625b103/" target="blank">LinkedIn</a>
-      </div>
-    </div>
-  </footer>
-  <!--link to instagram to show some of my interests -->
+    </footer>
+    <!--link to instagram to show some of my interests -->
 
 </body>
 

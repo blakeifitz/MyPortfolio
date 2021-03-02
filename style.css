@@ -111,7 +111,9 @@ a {
   font-weight: 550;
   /* links are a different font to slightly stand out */
 }
-
+i {
+  padding-left: 2px;
+}
 section {
   background-color: rgba(84, 98, 110, 0.2);
   margin: 5% auto;
@@ -160,6 +162,7 @@ img {
   border-radius: 8%;
   padding: 10px;
   max-width: 300px;
+  max-width: 90%;
   height: auto;
 }
 
@@ -312,6 +315,9 @@ footer {
 @media all and (min-width: 600px) {
   header nav ul {
     flex-direction: row;
+  }
+  header nav li {
+    padding: 20px;
   }
   .group {
     flex-direction: row;
